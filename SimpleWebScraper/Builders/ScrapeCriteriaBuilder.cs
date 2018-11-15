@@ -42,7 +42,7 @@ namespace SimpleWebScraper.Builders
             return this;
         }
 
-        public ScrapeCriteriaBuilder WithParts(ScrapeCriteriaPart parts)
+        public ScrapeCriteriaBuilder WithPart(ScrapeCriteriaPart parts)
         {
             _parts.Add(parts);
             return this;
